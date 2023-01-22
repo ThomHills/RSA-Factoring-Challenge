@@ -25,6 +25,7 @@ with open(argv[1], mode="r", encoding="UTF-8") as f:
                     
                     
 """
+
 def factor():
     with open(argv[1]) as f:
         for line in f:
@@ -42,5 +43,6 @@ def factor():
                     break
             if num % i != 0:
                 print("{}={}*1".format(num, num))
+
 """
 factor()
